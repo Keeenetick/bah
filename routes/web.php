@@ -14,7 +14,8 @@
 Route::get('/', 'MainController@index');
 Route::get('contact-us', 'ContactUSController@contactUS');
 Route::post('contact-us', ['as'=>'contactus.store','uses'=>'ContactUSController@contactUSPost']);
-Route::get('services','ContentController@index');
+// Route::get('services','ContentController@index');
+Route::get('blog','BlogController@index');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

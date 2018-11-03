@@ -17,10 +17,12 @@
 			</button>
 			<a class="navbar-brand" href="#"><img src="img/log2.png" alt="Brand"></a>
 		</div>
-
-		 {!!menu('mainmenu','nav') !!}
-			<div class="nav navbar-nav navbar-right">
-				<div class="lead phone_top"> +(380)50 279 74 07 </div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+		
+		 {!!menu('mainmenu','bootstrap') !!} 
+		 </div>
+		 <div class="nav navbar-nav navbar-right">
+				<div class="lead phone_top"> +(380)50 279 74 07 <p> График робот: 8:00 до 17:00</p>  </div>
 			</div>
 		</div>
 	</div>
@@ -350,102 +352,20 @@
 								<div class="panel-body">
 
 									<h4>Интересные статьи</h4>
-
+								
 									<div id="asideCarousel" class="carousel slide carousel-fade aside_carousel" data-ride="carousel">
-										
+									
 										<div class="carousel-inner" role="listbox">
 
 											<div class="item active">
-												<div class="aside_carousel_cont">
-													
-													<h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
+												<div class="aside_carousel_cont">			
+													<h4 class="lead">“”</h4>
 													<div class="aside_car_container">
-														<p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
-														<p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
+														<p></p>
 													</div>
 													<a href="#" class="more">Читать далее ></a>
-
 												</div>
 											</div>
-
-											<div class="item">
-												<div class="aside_carousel_cont">
-													
-													<h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
-													<div class="aside_car_container">
-														<p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
-														<p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
-													</div>
-													<a href="#" class="more">Читать далее ></a>
-
-												</div>
-											</div>
-
-											<div class="item">
-												<div class="aside_carousel_cont">
-													
-													<h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
-													<div class="aside_car_container">
-														<p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
-														<p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
-													</div>
-													<a href="#" class="more">Читать далее ></a>
-
-												</div>
-											</div>
-
-											<div class="item">
-												<div class="aside_carousel_cont">
-													
-													<h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
-													<div class="aside_car_container">
-														<p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
-														<p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
-													</div>
-													<a href="#" class="more">Читать далее ></a>
-
-												</div>
-											</div>
-
-											<div class="item">
-												<div class="aside_carousel_cont">
-													
-													<h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
-													<div class="aside_car_container">
-														<p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
-														<p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
-													</div>
-													<a href="#" class="more">Читать далее ></a>
-
-												</div>
-											</div>
-
-											<div class="item">
-												<div class="aside_carousel_cont">
-													
-													<h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
-													<div class="aside_car_container">
-														<p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
-														<p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
-													</div>
-													<a href="#" class="more">Читать далее ></a>
-
-												</div>
-											</div>
-
-											<div class="item">
-												<div class="aside_carousel_cont">
-													
-													<h4 class="lead">“As font, typography, and paout without being distracted by the content.”</h4>
-													<div class="aside_car_container">
-														<p>Replacing meaningful content with placeholder text allows viewers to focus on graphic aspects such as font, typography, aed by t meaningful text, as they can instead use quickly-generated lorem ipsum.</p>
-														<p>The lorem ipsum text is typically a scrambled section of De finibus bonorum et malorum, a 1st-century BC...</p>
-													</div>
-													<a href="#" class="more">Читать далее ></a>
-
-												</div>
-											</div>
-
 										</div>
 
 										<!-- Indicators -->
@@ -458,7 +378,7 @@
 											<li data-target="#asideCarousel" data-slide-to="5"></li>
 											<li data-target="#asideCarousel" data-slide-to="6"></li>
 										</ol>
-										
+												
 										<div class="car_controls">
 											<a class="left carousel-control" href="#asideCarousel" role="button" data-slide="prev">
 												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
